@@ -45,3 +45,8 @@ git push origin "your_branch_name"
 git pull origin "your_branch_name"
 ```
 
+## Merge a branch to master/main
+```bash
+git checkout master
+git merge "your_branch_name"
+```
