@@ -50,3 +50,8 @@ git pull origin "your_branch_name"
 git checkout master
 git merge "your_branch_name"
 ```
+
+## merge branch without fast forward
+```bash
+git merge --no-ff "your_branch_name"
+```
